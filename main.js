@@ -23,4 +23,7 @@ termostato.on('tic', (temp) => console.log(`${temp.toFixed(1)}ºC`));
 termostato.indicarTemperaturaIdeal(20);
 
 // Encender el termostato:
-termostato.encender();
+// termostato.encender();
+
+
+termostato.preguntar();

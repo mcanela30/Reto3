@@ -49,6 +49,10 @@ class Termostato  extends EventEmitter {
 		}, 500);
 	}
 
+	preguntar(){
+		console.log('A que temperatura quieres estar?');
+	}
+
 	apagar() {
 		console.log('Apagando el termostato.');
 		clearInterval(this.intervalId);
